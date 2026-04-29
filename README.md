@@ -1,5 +1,12 @@
-# Credit_card_fraud_detection
+# Credit Card Fraud Detection
 
-**Objtetivo:** Entender el contexto, entender cómo funcionan las transacciones, y reducir pérdidas por fraudes en transacciones con tarjetas de crédito.
+## Objective
+Analyze transaction behavior to detect fraud patterns and reduce financial losses caused by fraudulent credit card transactions.
 
-Las variables **Horario** y **Categorias de tiendas** son relevantes predictores de fraude. Con el enfoque en estas métricas logramos reducir las pérdidas por fraude en **≈20%**.
+## Key Insights
+- **Transaction time** was a strong fraud indicator, with higher concentration between **21:00 and 04:00**.
+- **Merchant categories** such as online shopping and grocery stores showed higher fraud frequency.
+- **Transaction amount** alone had limited predictive power, but added value combined with other features.
+
+## Result
+Using a Logistic Regression model and optimized thresholds, the project achieved an estimated **~20% reduction in fraud losses**.
