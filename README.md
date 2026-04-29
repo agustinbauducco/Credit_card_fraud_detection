@@ -10,3 +10,6 @@ Analyze transaction behavior to detect fraud patterns and reduce financial losse
 
 ## Result
 Using a Logistic Regression model and optimized thresholds, the project achieved an estimated **~20% reduction in fraud losses**.
+
+Interactive Heatmap: [Open Map](fraud_heatmap.html)
+
